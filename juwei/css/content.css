@@ -1,5 +1,6 @@
 .content{
-	width: 100%;
+	position: relative;
+	width: 1600px;
 	height: 500px;
 	background-color: #B8B6B6
 }

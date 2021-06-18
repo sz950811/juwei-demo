@@ -1,0 +1,43 @@
+.pictureanimation{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation: move 2s linear 0 1; left: 400px;top:200px;
+}
+@keyframes example{
+    0%{left: -200px; top: 200px;}
+    100%{left: 400px;top: 200px;}
+}
+.pictureanimation1{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    animation: example1;
+    animation-duration: 2.5s;
+    animation: move 2s linear 0 1; left: 600px;top: 0px;
+}
+@keyframes example1{
+    0% {top: 800px; left: 600px;}
+    100%{top: 0px; left: 600px;}
+}
+.pictureanimation2-1,.pictureanimation2-2,.pictureanimation2-3,.pictureanimation2-4{
+    width: 600px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 2s;
+    animation: move 2s linear 0 1;bottom: 200px; left: 800px;
+}
+@keyframes example3{
+    from {bottom: 200px; left: 2000px;}
+    to {bottom: 200px; left: 800px;}
+}
+.pictureanimation2-1 {animation-timing-function: linear;}
+.pictureanimation2-2 {animation-timing-function: ease;}
+.pictureanimation2-3 {animation-timing-function: ease-in;}
+.pictureanimation2-4 {animation-timing-function: ease-out;}

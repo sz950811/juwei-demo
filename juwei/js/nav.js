@@ -1,7 +1,8 @@
-	// ä¸‹æ‹‰èœå•
-	$(function(){
-		$(".nav-3 > li").hover(function(){
-			$(this).children("ul").stop().slideToggle();
-		});
-	})
-
+	// ÏÂÀ­²Ëµ¥
+$(function(){
+	$(".nav-3 > li").hover(function(){
+		$(this).children("ul").stop().slideToggle();
+	});
+});
+	
+	

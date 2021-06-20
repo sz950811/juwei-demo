@@ -68,3 +68,41 @@
 	margin-left: 20px;
 	background-image: url(../images/icon/新闻.png);
 }
+.new-right{
+	width: 385px;
+	height: 300px;
+	float: right;
+	border-left: blue 2px solid;
+	margin-top: 10px;
+}
+.new-right a{
+	display: block;
+	height: 48px;
+	width: 383px;
+	background-color: #B8B6B6;
+	line-height: 48px;
+}
+.new-right p{
+	/* position: relative;
+	top: 10px; */
+	margin-top: 15px;
+	/* display: block; */
+}
+.new-right-1 p{
+	margin-top: 0px !important;
+}
+.new-right-1,.new-right-2,.new-right-3,.new-right-4,.new-right-5{
+    position: relative;
+    animation-name: example3;
+    animation-duration: 2s;
+    animation: move 3s linear 0 1;top: 0px; right: 0px;
+}
+@keyframes example3{
+    from {top: 0px; right: -200px;}
+    to {top: 0px; right: 0px;}
+}
+.new-right-1 {animation-timing-function: linear;}
+.new-right-2 {animation-timing-function: ease;}
+.new-right-3 {animation-timing-function: ease-in;}
+.new-right-4 {animation-timing-function: ease;}
+.new-right-5 {animation-timing-function: ease-out;}

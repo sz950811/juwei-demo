@@ -106,3 +106,39 @@
 .new-right-3 {animation-timing-function: ease-in;}
 .new-right-4 {animation-timing-function: ease;}
 .new-right-5 {animation-timing-function: ease-out;}
+.tab_list{
+	width: 1600px;
+	height: 80px;
+	margin-top: 20px;
+}
+.tab_list li {
+	display: block;
+    float: left;
+	width: 385px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    cursor: pointer;
+	margin-left: 20px !important;
+	background-color: #fff;
+	font-size: 40px;
+	font-family: 楷体;
+}
+.current,.tab_con-1{
+	margin-left: 0 !important;
+}
+.tab_con-2{
+	float: left;
+	width: 385px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 20px ;
+	background-color: #39F8D6;
+}
+.tab_con-2-1{
+	margin-left: 0 !important;
+}
+.tab_list .current {
+    background-color: #39F8D6;
+    color: #fff;
+}

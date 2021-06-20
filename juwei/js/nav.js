@@ -4,5 +4,3 @@ $(function(){
 		$(this).children("ul").stop().slideToggle();
 	});
 });
-	
-	

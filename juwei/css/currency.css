@@ -15,7 +15,7 @@ a:hover{
 	font-size: 0px;
 }
 .bigbox{
-	width: 90%;
+	width: 1600px;
 	margin: 0 auto; 
 }
 .logo{
@@ -45,9 +45,9 @@ a:hover{
 }
 .navright{
 	position: absolute;
-	right: 10%;
+	left: 600px;
 	top: 0;
-	width: 65%;
+	width: 1000px;
 	float: right;
 }
 .nav-3{

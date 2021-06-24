@@ -80,3 +80,23 @@ a:hover{
 	line-height: 40px;
 	background-color: #b8b6b6;
 }
+.right-nav{
+	width: 70px;
+	height: 200px;
+	/* background-color: #0000FF; */
+	float: right;
+	position: fixed;
+	top: 300px;
+	right: 10px;
+	z-index: 999;
+}
+.right-nav-1{
+	display: block;
+}
+.right-nav-1 li{
+	width: 70px;
+	height: 50px;
+	margin-top: 10px;
+	line-height: 50px;
+	
+}
